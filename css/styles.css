@@ -47,7 +47,7 @@ body {
 }
 
 /* header  */
-
+/* logo */
 .logo {
   font-family: "Raleway";
   font-weight: 800;
@@ -66,25 +66,30 @@ body {
   list-style: none;
   color: var(--dark);
 }
-
-.nav-list-item {
+/* navigation list */
+.nav-list {
+}
+.nav-list-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   color: var(--text);
 }
-.nav-list-item:hover,
-.nav-list-item:focus {
+.nav-list-link:hover,
+.nav-list-link:focus {
   color: var(--pressed-state);
 }
-.mail-telephone-item {
+/* mail telephone */
+.mail-telephone {
+}
+.mail-telephone-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
 }
 
-.mail-telephone-item:hover,
-.mail-telephone-item:focus {
+.mail-telephone-link:hover,
+.mail-telephone-link:focus {
   color: var(--pressed-state);
 }
 /* hero section */
