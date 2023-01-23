@@ -11,13 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Header -->
-    <header>
-      <nav>
+    <header class="header">
+      <div class="container nav-menu">
+      <nav class="nav-menu">
         <!-- logo -->
         <a class="link logo" href="./index.html"
           >WEB<span class="logo-web-dark">STUDIO</span></a
@@ -27,12 +29,12 @@
           <li class="nav-list-item">
             <a class="link nav-list-link" href="./index.html">Studio</a>
           </li>
-          <li>
+          <li class="nav-list-item">
             <a class="link nav-list-link" href="./portfolio.html"> Portfolio</a>
-          </li class="nav-list-item">
-          <li>
+          </li>
+          <li  class="nav-list-item">
             <a class="link nav-list-link" href=""> Contacts</a>
-          </liclass="nav-list-item">
+          </liclass="nav-list-item"> 
         </ul>
       </nav>
       <!-- mail telephone -->
@@ -44,89 +46,95 @@
         </li class="mail-telephone-item">
         <li>
           <a class="link mail-telephone-link" href="tel:+110001111111"
-            >+11(000)111-11-11</a
+            >+11 (000) 111-11-11</a
           >
         </li>
       </ul>
+      </div>
     </header>
 
     <main>
       <!--hero section  -->
       <section class="hero">
+        <div class="container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="btn hero-button" type="button">Order Service</button>
+        </div>  
       </section>
 
       <!-- features-->
-      <section>
-        <h2 hidden>features</h2>
-        <ul class="list">
-          <li>
-            <h3 class="features-item">Strategy</h3>
-            <p>
+      <section class="features">
+        <div class="container">
+        <h2 class="visually-hidden">features</h2>
+        <ul class="list features-list">
+          <li class="features-item">
+            <h3 class="features-header">Strategy</h3>
+            <p class="features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3 class="features-item">Punctuality</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-header">Punctuality</h3>
+            <p class="features-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3 class="features-item">Diligence</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-header">Diligence</h3>
+            <p class="features-text" >
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3 class="features-item">Technologies</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-header">Technologies</h3>
+            <p class="features-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!-- What are we doing -->
-      <section>
+      <section class="what-doing">
+        <div class="container">
         <h2 class="section-title">What Are We Doing</h2>
 
-        <ul class="list">
-          <li>
+        <ul class="list what-doing-list">
+          <li class="what-doing-list-item">
             <img
               src="./images/main-page/what-are-we-doing/monitor.jpg"
               alt="Monitor"
               width="360"
-              height="300"
+             
             />
           </li>
-          <li>
+          <li class="what-doing-list-item">
             <img
               src="./images/main-page/what-are-we-doing/mobile.jpg"
               alt="Mobile screen"
               width="360"
-              height="300"
             />
           </li>
-          <li>
+          <li class="what-doing-list-item">
             <img
               src="./images/main-page/what-are-we-doing/mobile-telephone.jpg"
               alt="Mobine telephone"
               width="360"
-              height="300"
             />
           </li>
         </ul>
+        </div>
       </section>
       <!-- Our Team -->
       <section class="our-team">
+        <div class="container">
         <h2 class="section-title">Our Team</h2>
-        <ul class="list">
-          <li>
+        <ul class="list our-team-list">
+          <li class="our-team-item">
             <img
               src="./images/main-page/our-team/mark-guerrero.jpg"
               alt="Mark Guerrero"
@@ -134,9 +142,9 @@
               height="260"
             />
             <h3 class="team-name">Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <p class="our-team-text">Product Designer</p>
           </li>
-          <li>
+          <li class="our-team-item">
             <img
               src="./images/main-page/our-team/tom-ford.jpg"
               alt="Tom Ford"
@@ -144,9 +152,9 @@
               height="260"
             />
             <h3 class="team-name">Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <p class="our-team-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="our-team-item">
             <img
               src="./images/main-page/our-team/camila-garsia.jpg"
               alt="Camila Garsia"
@@ -154,9 +162,9 @@
               height="260"
             />
             <h3 class="team-name">Camila Garsia</h3>
-            <p>Marketing</p>
+            <p class="our-team-text">Marketing</p>
           </li>
-          <li>
+          <li class="our-team-item">
             <img
               src="./images//main-page/our-team/daniel-wilson.jpg"
               alt="Daniel Wilson"
@@ -164,13 +172,15 @@
               height="260"
             />
             <h3 class="team-name">Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <p class="our-team-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!--footer  -->
     <footer class="footer">
+      <div class="container">
       <a class="logo-footer link" href="./index.html"
         >WEB<span class="logo-web-light">STUDIO</span></a
       >
@@ -178,6 +188,7 @@
         Increase the flow of customers and sales for your business with digitel
         marketing &#38; growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
