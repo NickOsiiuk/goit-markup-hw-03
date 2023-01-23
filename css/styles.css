@@ -81,6 +81,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -116,11 +120,8 @@ img {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-brand);
-  border: solid red;
 }
 .logo-web-dark {
-  margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -137,6 +138,9 @@ img {
 }
 .nav-list .nav-list-item:not(:last-child) {
   margin-right: 40px;
+}
+.nav-list .nav-list-item:first-child {
+  margin-left: 76px;
 }
 
 .nav-list-link {
@@ -214,7 +218,7 @@ img {
 }
 
 /* features */
-.features {
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -241,9 +245,6 @@ img {
   letter-spacing: 0.02em;
 }
 /* what are we doing */
-.what-doing {
-  padding-bottom: 120px;
-}
 
 .what-doing-list {
   margin-top: 72px;
@@ -257,8 +258,6 @@ img {
 /* our team */
 .our-team {
   background-color: var(--light);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .section-title {
   font-weight: 700;
@@ -349,7 +348,6 @@ img {
 
 .portfolio {
   padding-top: 96px;
-  padding-bottom: 120px;
   text-align: center;
 }
 .portfolio-nav {
