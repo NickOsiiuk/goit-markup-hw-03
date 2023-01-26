@@ -120,6 +120,7 @@ img {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-brand);
 }
 .logo-web-dark {
   padding-top: 24px;
